@@ -1,3 +1,9 @@
+# Dokumentasi Proyek Digital Kampus - DevOps
+
+## 1. Alur Kerja Tim (Sequence Diagram)
+
+Diagram ini menunjukkan alur kolaborasi dari Product Owner, Developer, Tester/QA, hingga Operations/DevOps[cite: 1]:
+
 ```mermaid
 sequenceDiagram
     actor PO as Product Owner
@@ -27,4 +33,3 @@ sequenceDiagram
     OPS->>OPS: 7. Periksa kesiapan backup & rollback
     OPS->>DEV: 8. Merge PR ke branch main (Otomatis Deploy)
     deactivate OPS
-```
